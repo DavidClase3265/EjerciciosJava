@@ -11,11 +11,11 @@ public class EjercicioIVA {
 			float factor=0;
 			double pvp;
 		
-		System.out.println("pon el precio:   ");
+		System.out.println("Pon el precio:   ");
 		Scanner in = new Scanner (System.in);
 		precio = in.nextInt();
 		
-		System.out.println("Pon el iva: 4% 7% p 16%   ");
+		System.out.println("Pon el iva: 4% 7%  16%   ");
 		
 		iva = in.nextInt();
 		
@@ -36,7 +36,7 @@ public class EjercicioIVA {
 		}
 		
 		pvp=precio + precio * factor;
-				System.out.println("pvp es  " +pvp);
+				System.out.println("El pvp es  " +pvp);
 	}
 
 }
